@@ -4,8 +4,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading "><span class="text textAuth">LoGIN</span></div>
+                <div class="panel panel-default" style="margin-top: 250px">
+                    <div class="panel-heading "><span class="text textAuth">LOGIN</span></div>
                     <div class="panel-body">
                         @if (count($errors) > 0)
                             <div class="alert alert-danger">

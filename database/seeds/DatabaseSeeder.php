@@ -46,6 +46,22 @@ class DatabaseSeeder extends Seeder
             'id_lessontype' => 1,
             'name' => 'Second lesson'
         ]);
+        App\Lesson::create([
+            'id_lessontype' => 2,
+            'name' => 'First lesson'
+        ]);
+        App\Lesson::create([
+            'id_lessontype' => 2,
+            'name' => 'Second lesson'
+        ]);
+        App\Lesson::create([
+            'id_lessontype' =>2,
+            'name' => 'Third lesson'
+        ]);
+        App\Lesson::create([
+            'id_lessontype' =>2,
+            'name' => 'Fourth lesson'
+        ]);
 
         App\Lesson::create([
             'id_lessontype' => 1,

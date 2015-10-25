@@ -21,7 +21,7 @@
 
                     <div class="col-md-4 statustekst"><h5 style="float: left;">Status:</h5>
                         <div class="statusvalue">
-                            <h5> {{$li->user->first()->status or 'Incomplete' }}</h5>
+                            <h5>{{$li->user->first()->status or 'Incomplete' }}</h5>
                         </div>
                     </div>
 
