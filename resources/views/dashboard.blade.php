@@ -7,7 +7,7 @@
     <div class="row lekcije">
     @foreach( $lessonYes as $less)
     <a href="lessTyp/{{$less->id}}">
-    <div class="col-sm-3">
+    <div class="col-sm-3 box">
     <div class="tile-progress {{$less->color}}">
     <div class="tile-header">
 
@@ -33,7 +33,7 @@
     @endforeach
         @foreach( $lessonNo as $lessNo)
             <a href="lessTyp/{{$lessNo->id}}">
-                <div class="col-sm-3">
+                <div class="col-sm-3 box">
                     <div class="tile-progress {{$lessNo->color}}">
                         <div class="tile-header">
 

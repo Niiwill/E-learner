@@ -12,7 +12,7 @@
 
 
     <!-- Fonts -->
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,7 +31,7 @@
             <div class="outter"><img src="http://www.80proofdigital.com/wp-content/uploads/2015/07/contact-icon.png" class="image-circle"/></div>
 
             <h1>NIKOLA VIDOVIC</h1>
-            <p>---- User ----</p>
+            <p> User </p>
 
         </div>
         <li>

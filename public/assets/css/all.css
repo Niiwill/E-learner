@@ -230,7 +230,7 @@ margin: 0 auto;
     /*-ms-transition: all 0.3s linear;*/
     /*-o-transition: all 0.3s linear;*/
     /*transition: all 0.3s linear;*/
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid hsl(0, 0%, 87%);
     padding: 15px;
     text-indent: 20px;
     line-height: 40px;
@@ -240,7 +240,7 @@ margin: 0 auto;
 
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #252525;
 }
 
 .sidebar-nav li:hover {
@@ -301,10 +301,16 @@ margin: 0 auto;
     padding-right: 0px;
     border-right: 1px solid rgba(0,0,0,0.14);
     z-index: 2;
-    background-color: #fafafa;
+    background-color: #f3f3f3;
     height: 972px;
 
     }
+.box{
+    transition: all .2s ease-in-out;
+}
+.box:hover{
+    transform: scale(1.1);
+}
 .hed{
     padding: 0px;
     height: 60px;
@@ -333,7 +339,8 @@ margin: 0 auto;
     color: #ffffff;
 }
 .lekcije{
-    margin-top: 30px;
+    display: inline-block;
+    margin-top: 50px;
 }
 .logout{
     float: right;
@@ -354,7 +361,10 @@ margin-bottom: 15px;
     margin-bottom: 1px;
 }
 .ime p{
-    opacity: 0.9;
+    margin-top:7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-top: 1px solid #414141;
 
 }
 /*#555556*/
@@ -382,10 +392,22 @@ margin-bottom: 15px;
     margin-top: 3px;
 }
 .imetop a{
+    transition: all .2s ease-in-out;
     font-size: 20px;
     color:white;
     text-align: center;
     font-family: 'Indie Flower', cursive;
+}
+.imetop a:hover{
+    transform: scale(1.1);
+text-decoration: none;
+}
+.body{
+    background-size: 100%;
+    background-image: url("http://cool-wallpapers.us/wp-content/uploads/hqwallpapers/desk-notebook-computer-high-quality-wallpapers-2560x1440.jpg");
+}
+.form-control {
+    background-color: rgba(255, 255, 255, 0.21);
 }
 
 
